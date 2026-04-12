@@ -28,6 +28,7 @@
             <a href="/profil" class="px-4 py-2 rounded-full text-white hover:bg-white hover:text-blue-600 transition">Profil</a>
             <a href="/katalog" class="px-4 py-2 rounded-full text-white hover:bg-white hover:text-green-600 transition">Katalog</a>
             <a href="/bantuan" class="px-4 py-2 rounded-full text-white hover:bg-white hover:text-yellow-600 transition">Bantuan</a>
+            <a href="/kontak" class="px-4 py-2 rounded-full text-white hover:bg-white hover:text-yellow-600 transition">Kontak</a>
         </div>
 
     </nav>
