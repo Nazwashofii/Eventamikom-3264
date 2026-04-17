@@ -25,3 +25,11 @@ Route::get('/katalog', function () {
 Route::get('/bantuan', function () {
     return view('bantuan');
 });
+
+Route::get('/dashboard', function () {
+    return view('admin.dashboard');
+});
+
+Route::get('/events', function () {
+    return view('admin.events');
+});
