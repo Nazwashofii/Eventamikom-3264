@@ -1,11 +1,10 @@
-@extends('layouts.admin')
+@extends('layouts.app')
 @section('content')
-
 <main class="max-w-7xl mx-auto px-6 py-12 grid grid-cols-1 lg:grid-cols-3 gap-12">
         <!-- Left: Poster -->
         <div class="lg:col-span-1">
             <div class="sticky top-32">
-                <img src="assets/concert.png" alt="Concert Poster"
+                <img src="{{ asset('assets/concert.png') }}" alt="Concert Poster"
                     class="w-full rounded-[2.5rem] shadow-2xl border-8 border-white">
                 <div class="mt-8 p-6 bg-white rounded-3xl border border-slate-100 shadow-sm">
                     <h4 class="font-bold mb-4">Penyelenggara</h4>
@@ -81,7 +80,7 @@
                         </p>
                     </div>
                     <div>
-                        <a href="checkout.html"
+                        <a href="checkout"
                             class="inline-block px-10 py-5 bg-white text-indigo-600 rounded-2xl font-black text-xl hover:scale-105 transition-transform shadow-xl">
                             Pesan Sekarang
                         </a>
@@ -120,5 +119,4 @@
             </div>
         </div>
     </main>
-
-    @endsection
+@endsection
